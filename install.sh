@@ -2,7 +2,7 @@
 
 sudo echo "Europe/Berlin" | sudo tee /etc/timezone
 sudo dpkg-reconfigure -f noninteractive tzdata
-
+sudo locale-gen de_DE.UTF-8
 sudo apt-get update -y
 sudo apt-get install -y htop vim
 
